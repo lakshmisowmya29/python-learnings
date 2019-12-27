@@ -1,0 +1,38 @@
+Strings
+1. Searching substring (ignoring case) in a list of strings
+	
+
+	"world" - 3
+	"World" - 1
+	"WoRlD" - 3 
+
+2. Print number of words from below two lines
+ 	wire   N69, N70, N71, N72, N73, N74, N75, N76, N77, N78, N79, N80, N81, N82,
+         N83, N84, N86, N88, N90, N92, N94, N96, n42, n43, n44, n45, n46, n47;
+	
+3. Create dictionary from below string
+  	EDFFX2AD \dat_out_sig_reg[0]  ( .D(N69), .E(N96), .CK(clk), .Q(dat_out[0])
+         );
+
+	Example:
+	{"EDFFX2AD": "\dat_out_sig_reg[0]  ( .D(N69), .E(N96), .CK(clk), .Q(dat_out[0]));" }
+  
+
+4. Count number of "EDFFX2AD" and "DFFQXLAD"
+  EDFFX2AD \dat_out_sig_reg[0]  ( .D(N69), .E(N96), .CK(clk), .Q(dat_out[0])
+         );
+  EDFFX2AD \dat_out_sig_reg[1]  ( .D(N70), .E(N94), .CK(clk), .Q(dat_out[1])
+         );
+  EDFFX2AD \dat_out_sig_reg[2]  ( .D(N71), .E(N92), .CK(clk), .Q(dat_out[2])
+         );
+  DFFQXLAD \dat_out_sig_reg[8]  ( .D(N77), .CK(clk), .Q(dat_out[8]) );
+  DFFQXLAD \dat_out_sig_reg[15]  ( .D(N84), .CK(clk), .Q(dat_out[15]) );
+  DFFQXLAD \dat_out_sig_reg[6]  ( .D(N75), .CK(clk), .Q(dat_out[6]) );
+  DFFQXLAD \dat_out_sig_reg[11]  ( .D(N80), .CK(clk), .Q(dat_out[11]) );
+
+5. Reading and printing text file content
+6. Populating list of strings from text file
+7. Print all lines which are matches with substing at the begining of line
+8. Print number of lines between "module" and "endmodule" in attached file
+
+

@@ -1,0 +1,29 @@
+int a
+int b
+int c
+
+a=[
+	[3,4,5],
+	[5,6,7],
+	[8,9,1]
+	]
+b=[
+	[1,2,3],
+	[4,5,6],
+	[7,8,9]
+	]
+c=[
+	[0,0,0],
+	[0,0,0],
+	[0,0,0]
+	]
+r=3
+c=3
+
+for i in range (0,r):
+	for j in range (0,c):
+		c[i][j]=a[i][j]+b[i][j]
+for i in range (0,r):
+	for j in range (0,c):
+		print(c[i][j],end="")
+print("")
